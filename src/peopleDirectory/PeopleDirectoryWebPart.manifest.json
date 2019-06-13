@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "a55afd2f-1498-4e00-a3e9-1d05ddc2cb6f",
-  "alias": "PeopleDirectoryWebPart",
+  "id": "4894c03a-593c-4033-ae5a-afb4d4d47f27",
+  "alias": "AllPeopleFinderWebPart",
   "componentType": "WebPart",
 
   // The "*" signifies that the version should be taken from the package.json
@@ -15,12 +15,12 @@
 
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
-    "group": { "default": "RDG" },
-    "title": { "default": "People Directory" },
-    "description": { "default": "A people finder app" },
+    "group": { "default": "Perform" },
+    "title": { "default": "People All Finder" },
+    "description": { "default": "An all people finder app" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "peopleDirectory"
+      "description": "Find All People Finder"
     }
   }]
 }
